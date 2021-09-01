@@ -1,0 +1,17 @@
+.imageCase {
+	border-radius: 5px;
+	background-color: #00bc95;
+	margin: auto;
+	width: 50vw;
+}
+.mobalIcon{
+	z-index: 1;
+}
+.preview{
+  width: 45vw;
+}
+.dff{
+	overflow-x: scroll;
+	overflow-y: scroll;
+	max-height: 600px;
+}

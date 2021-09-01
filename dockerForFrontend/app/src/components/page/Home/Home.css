@@ -1,0 +1,209 @@
+/*
+	Delex by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+
+/* TABLE OF CONTENTS
+	1) Reset
+	2) Help classes
+	3) Pre-loader
+	4) Parallax
+	5) Navigation
+	6) Home
+	7) Services
+	8) Twitter-tweets
+	9) Contact
+	10) Footer
+	11) Responsive
+	12) Back-to-top
+*/
+.hoverStyle:hover{
+  border: 1px solid #CCC5C3;
+}
+
+
+#SVG1 {
+  fill:  #FF7F82;
+  width: 50px;
+}#SVG2 {
+  fill: #62A6E3;
+  width: 50px;
+}#SVG3 {
+  fill: #A483D6;
+  width: 50px;
+}#SVG4 {
+  fill: #FF356B;
+  width: 50px;
+}#SVG5 {
+  fill: #5DDA9B;
+  width: 50px;
+}#SVG6 {
+  fill: #747373;
+  width: 50px;
+}#SVG7 {
+  fill: #F7CD7D;
+  width: 50px;
+}#SVG8 {
+  fill: #19637A;
+  width: 50px;
+}
+
+
+
+
+
+/* 1 Reset
+----------------------------------------------------------------------------- */
+
+
+section {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+}
+
+.test{
+  width: 100%;
+   /* position: absolute;
+  top: 0;  */
+  /* margin-top: 300px;  */
+}
+
+
+/* 2 Help-classes
+----------------------------------------------------------------------------- */
+
+
+.title {
+	font-family: 'Kameron', serif;
+	font-weight: 700;
+}
+.titleHR {
+	background: none repeat scroll 0 0 #e1e1e1;
+	height: 3px;
+	margin: 20px auto 0;
+	position: relative;
+	text-align: center;
+	width: 130px;
+	margin-bottom: 20px;
+}
+.titleHR span {
+	border-left: 5px solid #f7f7f7;
+	border-right: 5px solid #f7f7f7;
+	display: inline-block;
+	height: 3px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	width: 50px;
+}
+
+.titleHR span {
+	background: none repeat scroll 0 0 #00bc95;
+}
+
+
+/* 7 Services
+----------------------------------------------------------------------------- */
+.services-item{
+	padding: 40px 20px;
+}
+.services-item i{
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+.services-item h5{
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 20px;
+  font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
+
+/* 6 Home
+----------------------------------------------------------------------------- */
+.main-home {
+	padding: 330px 0px 250px 0;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+  top : 0;
+	font-size: 13px;
+	color: #fff;
+	background: #000;
+	min-height: 400px;
+}
+.home-page-photo {
+	background-image: url('./../../../image/cicr-helico.jpg');
+  background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	opacity: 0.50;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.home__header-content {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.home__header-content h1{
+	font-family: 'Kameron', serif;
+  color: #fff
+}
+.home__header-content p{
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 20px;
+  color : #fff;
+}
+.home__header-content a.btn-default {
+	margin-top: 15px;
+}
+/*--- Carousel --*/
+#main-home-carousel .intro-title {
+	font-family: 'Kameron', serif;
+}
+#main-home-carousel .intro-text {
+	color: #cacaca;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+
+
+.btn-custom{
+	border-radius: 3px;
+	padding: 0.8em 1.8em;
+	color: #fff;
+	font-weight: 700;
+	-webkit-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	text-transform: uppercase;
+  background-color: #00bc95;
+  font-family: 'Signika Negative', sans-serif;
+
+}
+.btn-custom:hover,.btn-custom:focus{
+  color: #fff;
+  background-color: #6C6767;
+  border-color: #6C6767;
+  text-decoration: none;
+}

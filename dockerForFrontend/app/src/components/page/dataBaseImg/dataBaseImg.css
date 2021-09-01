@@ -1,0 +1,55 @@
+.current-page {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.page {
+    display: inline;
+}
+.card {
+    overflow: hidden;
+}
+.imgItem {
+    width: 250px;
+    max-width: 240px;
+    min-height: 220px;
+    max-height: 220px;
+    margin: 0 auto;
+}
+.imgSize {
+    max-width: 100%;
+    height: auto;
+}
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}  
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #00bc95;
+    color: black;
+    cursor: pointer;
+    list-style: none;
+}  
+.paginationBttns a:hover {
+    color: black;
+    background-color: #00bc95;
+    list-style: none;
+}  
+.paginationActive a {
+    color: black;
+    background-color: #00bc95;
+}  
+.paginationDisabled a {
+    color: black;
+    background-color: #00bc95;
+}
+.navPag {
+      margin: 0 auto;
+      text-align: center;
+      width: 0;
+}
